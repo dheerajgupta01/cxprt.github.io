@@ -7,7 +7,7 @@ app = Flask(__name__,
             template_folder='templates')
 
 
-receiver_email = 'iamanushka.dhiman@gmail.com'
+receiver_email = 'dheerajgupta19920@gmail.com'
 
 def send_email(receiver_email,name,email,subject,mymsg):
     smtp_server = "smtp.gmail.com"
