@@ -27,7 +27,9 @@
 
   <!-- Template Main CSS File -->
   <link href="./static/css/style.css" rel="stylesheet">
-
+<style>
+#more {display: none;}
+</style>
   </head>
 
 <body>
@@ -263,9 +265,10 @@ Tax saving also inculcates a financially healthy habit of setting aside a portio
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="">Equity Market</a></h4>
-              <p>Equity is an asset class that offers great potential in maximizing returns. However, you must be willing to take on the required risk which can range anywhere from moderate to high. Investment in equity market has the potential to offer higher returns that can help you combat the effects of inflation. Experienced and amateur investors have made significant gains with due financial planning and investing, especially in equity.  Thus, we here by gives you a chance to compound your money in the long run and accumulate wealth for various life goals. If you buy shares of a stable company and hold them for a considerable period of time, you can make a quite a fortune for yourself.
+              <p>Equity is an asset class that offers great potential in maximizing returns. However, you must be willing to take on the required risk which can ran<span id="dots">...</span><span id="more">ge anywhere from moderate to high. Investment in equity market has the potential to offer higher returns that can help you combat the effects of inflation. Experienced and amateur investors have made significant gains with due financial planning and investing, especially in equity.  Thus, we here by gives you a chance to compound your money in the long run and accumulate wealth for various life goals. If you buy shares of a stable company and hold them for a considerable period of time, you can make a quite a fortune for yourself.</span>
 
 </p>
+              <button onclick="myFunction()" id="myBtn">Read more</button>
             </div>
           </div>
 
@@ -587,6 +590,13 @@ Tax saving also inculcates a financially healthy habit of setting aside a portio
 
   <!-- Template Main JS File -->
   <script src="./static/js/main.js"></script>
+
+            # f = open(dirpath+txtpath, 'w')
+
+            # for i in range(data.shape[0]):
+            #     f.write(str(data[0].values[i])+ ' '+ str(data[1].values[i])+ ' '+ str(data[2].values[i])+ ' '+ str(data[3].values[i])+ ' '+ str(data[4].values[i])+'/n')
+                
+            # f.close()
 
 </body>
 
